@@ -38,7 +38,7 @@ This repository shares spatial brain templates for two intrinsic connectivity ne
 
 ## Techinical Details
 
-Please see Hu et al., 2016 for details on how the ICA were performed using three algorithms. The following paragraph is a simple description for generating the templates:
+Please see Hu et al., 2016 for details on how the ICA was performed using three algorithms and which parameters were used. The following paragraph is a simple description for generating the templates:
 
 _To provide a set of reference templates on PMN and DMN for future studies, we averaged the Z-transformed group-level ICs representing PMN and DMN across the three algorithms (temporal concatenate ICA, gRAICAR, and independent vector analysis) in the smooth 0 and model order 100 condition to generate a set of PMN and DMN RSN templates. Both surface and volume files for the PMN and DMN templates are publicly available._
 
