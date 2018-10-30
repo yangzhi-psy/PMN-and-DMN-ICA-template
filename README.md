@@ -8,6 +8,13 @@ This repository shares spatial brain templates for two intrinsic connectivity ne
 
 ![fig_dmn_pmn_template](./fig_dmn_pmn_template.png)
 
+
+## Usage
+
+- Under the _"mean_across_algorithms"_ directory, there are two directories, _"volume"_ and _"free surfer"_, storing PMN and DMN maps in volume (.nii.gz) and cortical surface format (fsaverage.nii.gz)
+- Under the _"volume"_ directory, templates of 2mm and 3mm resolutions are provided.
+- The values in the PMN/DMN maps are Z scores, and the users could set a cut-off threshold like |Z|>2 or |Z|>3 to convert them into binary masks and extract ROI as they need.
+
 ## Rationale
 
 - The **DMN** is a well known instrinsic connectivity network in the brain, and there have been numerous studies reporting its relevance to disease, cogition functions, and conciousness.
@@ -44,8 +51,3 @@ _To provide a set of reference templates on PMN and DMN for future studies, we a
 
 
 
-## Usage
-
-- Under the _"mean_across_algorithms"_ directory, there are two directories, _"volume"_ and _"free surfer"_, storing PMN and DMN maps in volume (.nii.gz) and cortical surface format (fsaverage.nii.gz)
-- Under the _"volume"_ directory, templates of 2mm and 3mm resolutions are provided.
-- The values in the PMN/DMN maps are Z scores, and the users could set a cut-off threshold like |Z|>2 or |Z|>3 to convert them into binary masks and extract ROI as they need.
