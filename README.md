@@ -1,6 +1,4 @@
----
-typora-copy-images-to: ./mean_across_algorithms/volume/PMN_DMN.png
----
+
 
 # Parietal Memory Network (PMN) and Default Model Network (DMN) Templates
 
@@ -8,7 +6,7 @@ typora-copy-images-to: ./mean_across_algorithms/volume/PMN_DMN.png
 
 This repository shares spatial brain templates for two intrinsic connectivity network (ICN) templates, the **parietal memory network (PMN)** and the **default mode network (DMN)**.
 
-![fig_dmn_pmn_template](/Users/yangz/My Cloud/PMNtemplate/fig_dmn_pmn_template.png)
+![fig_dmn_pmn_template](./fig_dmn_pmn_template.png)
 
 ## Rationale
 
@@ -20,7 +18,7 @@ This repository shares spatial brain templates for two intrinsic connectivity ne
 
 
 
-![fig_pmn_dmn_lifespan](/Users/yangz/My Cloud/PMNtemplate/fig_pmn_dmn_lifespan.png)
+![fig_pmn_dmn_lifespan](./fig_pmn_dmn_lifespan.png)
 
 - A practical approach to separate PMN from DMN is independent component analysis (ICA) on resting state fMRI data, but due to technical complexity, the implementation is not a trivial. 
 
